@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export function Banner() {
 	return (
-		<div className="relative min-h-screen w-full">
+		<div className="relative pb-20 w-full">
 			{/* Top Navigation */}
 			<div className="relative z-10 flex flex-wrap justify-center gap-2 md:gap-4 p-4 md:p-6">
 				<Button variant="default" skew="left" size="sm" className="md:size-md">

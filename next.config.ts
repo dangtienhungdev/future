@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
 			{
 				hostname: "hebbkx1anhila5yf.public.blob.vercel-storage.com",
 			},
+			{
+				hostname: "res.cloudinary.com",
+			},
+			{
+				hostname: "picsum.photos",
+			},
 		],
 	},
 };
