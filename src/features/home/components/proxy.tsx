@@ -23,7 +23,7 @@ const pricingData = [
 		price: "9.500đ",
 	},
 	{
-		title: "Proxy",
+		title: "Proxy private",
 		desc: "Dùng Riêng",
 		price: "45.000đ",
 	},
@@ -75,7 +75,7 @@ const Proxy = () => {
 							key={index}
 							classNames={{ container: "bg-cyan-500 w-full lg:w-64" }}
 						>
-							<div className="relative flex flex-col items-center space-y-4 p-6 uppercase h-full justify-around">
+							<div className="relative flex flex-col items-center space-y-8 p-6 uppercase h-full justify-center">
 								<div className="text-center space-y-6">
 									<h2 className="text-center text-3xl font-bold tracking-wider text-white">
 										{item.title}
@@ -92,10 +92,12 @@ const Proxy = () => {
 								</div>
 
 								<button
-									className="w-full rounded bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-2 font-medium text-white transition-transform hover:scale-105 active:scale-95"
+									className="rounded bg-gradient-to-r from-orange-500 absolute bottom-2 left-[6px] w-[95%] to-orange-600 px-4 py-2 font-medium text-white transition-transform hover:scale-105 active:scale-95"
 									style={{
 										background:
 											"linear-gradient(to right, rgb(254, 167, 0), rgb(248, 54, 0))",
+										clipPath:
+											"polygon(0% 0%, 100% 0%, 100% 41%, 90% 100%, 0% 100%, 0% 7%)",
 									}}
 								>
 									MUA NGAY
