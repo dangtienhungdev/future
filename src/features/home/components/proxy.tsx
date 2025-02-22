@@ -42,6 +42,7 @@ const Proxy = () => {
 				title="Bảng Giá Proxy"
 				classNames={{
 					title: "text-transparent text-[#003e3f] text-xl lg:text-2xl",
+					container: "w-full text-center lg:w-1/3",
 				}}
 			></NonHeading>
 
@@ -53,7 +54,7 @@ const Proxy = () => {
 							<ProxyCard
 								key={index}
 								classNames={{
-									container: "bg-cyan-500",
+									container: "bg-cyan-500 w-full lg:w-64",
 									content: "flex items-center justify-center",
 								}}
 							>
@@ -70,7 +71,10 @@ const Proxy = () => {
 						);
 					}
 					return (
-						<ProxyCard key={index} classNames={{ container: "bg-cyan-500" }}>
+						<ProxyCard
+							key={index}
+							classNames={{ container: "bg-cyan-500 w-full lg:w-64" }}
+						>
 							<div className="relative flex flex-col items-center space-y-4 p-6 uppercase h-full justify-around">
 								<div className="text-center space-y-6">
 									<h2 className="text-center text-3xl font-bold tracking-wider text-white">

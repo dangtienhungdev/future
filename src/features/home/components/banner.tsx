@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export function Banner() {
 	return (
-		<div className="relative pb-20 w-full">
+		<div className="relative pb-20 w-full overflow-hidden">
 			{/* Top Navigation */}
 			<div className="relative z-10 flex flex-wrap justify-center gap-2 md:gap-4 p-4 md:p-6">
 				<Button variant="default" skew="left" size="sm" className="md:size-md">
@@ -80,7 +80,7 @@ export function Banner() {
 					>
 						<div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px]">
 							<Image
-								src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LcA3v9HbPg2AsqHCiIsRd0MCuXcbU8.png"
+								src="https://res.cloudinary.com/dcwdrvxdg/image/upload/v1740214892/cs-portal/download_6_xpyrfs.png"
 								alt="HD Shield"
 								fill
 								className="object-contain"

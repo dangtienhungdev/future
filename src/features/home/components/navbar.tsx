@@ -73,7 +73,7 @@ export default function Navbar() {
 				>
 					<Link href="/">
 						<Image
-							src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-yS30aeHwhfq4O54ihStmVMQ4pjvrg8.png"
+							src="https://res.cloudinary.com/dcwdrvxdg/image/upload/v1740214715/cs-portal/download_5_hmda1d.png"
 							alt="HD FutureTech Logo"
 							width={100}
 							height={40}
@@ -90,7 +90,7 @@ export default function Navbar() {
 			<AnimatePresence>
 				{isMenuOpen && (
 					<motion.div
-						className="absolute top-[54px] left-0 right-0 bg-[#001119] border-t border-[#97eeff]/20 md:hidden"
+						className="absolute top-[54px] left-0 right-0 bg-[#001119] border-t border-[#97eeff]/20 md:hidden z-[99999]"
 						initial={{ opacity: 0, height: 0 }}
 						animate={{ opacity: 1, height: "auto" }}
 						exit={{ opacity: 0, height: 0 }}

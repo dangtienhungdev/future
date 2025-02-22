@@ -4,6 +4,7 @@ import FeedbackSection from "@/features/home/components/feedback-section";
 import Footer from "@/features/home/components/footer";
 import Navbar from "@/features/home/components/navbar";
 import PaymentSection from "@/features/home/components/payment-section";
+import PriceTable from "@/features/home/components/price-table";
 import Proxy from "@/features/home/components/proxy";
 import WhyUsSection from "@/features/home/components/why-us-section";
 
@@ -29,6 +30,8 @@ export default function Home() {
 				<Banner />
 
 				<Proxy />
+
+				<PriceTable />
 
 				{/* ahihi */}
 				<WhyUsSection />

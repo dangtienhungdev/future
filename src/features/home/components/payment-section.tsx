@@ -40,7 +40,7 @@ export default function PaymentSection() {
 
 						{/* Text Content */}
 						<div className="w-full md:w-1/2">
-							<h3 className="text-primary ml-12 text-3xl md:text-4xl font-bold mb-8 drop-shadow-[0_0_10px_rgba(64,224,255,0.5)] whitespace-nowrap">
+							<h3 className="text-primary lg:ml-12 text-xl lg:text-3xl md:text-4xl font-bold mb-8 drop-shadow-[0_0_10px_rgba(64,224,255,0.5)] whitespace-nowrap">
 								HỖ TRỢ THANH TOÁN ĐA DẠNG
 							</h3>
 							<ul className="space-y-4 text-primary text-2xl md:text-2xl mb-12 font-bold">
